@@ -104,7 +104,8 @@ class librarian : public library
     {
         cout << "*" << setfill('*') << setw(20) << "*" << endl;
         cout << "*" << setfill('*') << "Student_Related_Choices" << setw(20) << "*" << endl;
-        cout<<"1."
+        cout<<"1. Send remainder to student for issue , delay or return "<<endl;
+        cout<<"2. Issue fine for delay"<<endl;
         cout << "*" << setfill('*') << setw(20) << "*" << endl;
     }
 };
